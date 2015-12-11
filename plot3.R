@@ -48,7 +48,8 @@ axis(2, at=c(0,10,20,30), labels=c(0,10,20,30))
 title(ylab="Energy sub metering")
 
 # Required legend for the graphic
-legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1,1,1),lwd=c(2.5,2.5,2.5),col=c("black","blue","red"))
+legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1,1,1),
+       lwd=c(2.5,2.5,2.5),col=c("black","blue","red"))
 
 # We finally close the png window
 dev.off()

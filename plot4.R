@@ -62,7 +62,8 @@ lines(time,Energy_Sub_metering_3,type="l", xaxt='n',ann=FALSE,yaxt='n',col="blue
 axis(1, at=c(1,1440,2880), labels=c("Thu","Fri","Sat"))
 axis(2, at=c(0,10,20,30), labels=c(0,10,20,30))
 title(ylab="Energy sub metering",cex.lab=0.7)
-legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1,1,1),lwd=c(2.5,2.5,2.5),col=c("black","blue","red"),cex=0.7)
+legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1,1,1),
+       lwd=c(2.5,2.5,2.5),col=c("black","blue","red"),cex=0.7)
 
 ### BOTTOM RIGHT PLOT ###
 # this is very similar to our plot 2 for a different quantity:
