@@ -23,9 +23,9 @@ png(filename = "plot1.png",width = 480, height = 480)
 par(mfrow=c(1,1))
 
 # plot the required histogram, correct labels
-hist(numeric_Global_active_power,
-     xlab="GLobal Active Power (kilowatts)",ylab = "Frequency",
-     main="Global Active Power",,col="red",ylim=c(0,1200),xaxt='n')
+hist(numeric_Global_active_power,xlab="GLobal Active Power (kilowatts)",
+     ylab = "Frequency",main="Global Active Power",
+     col="red",ylim=c(0,1200),xaxt='n')
 # Required gradation for the x axis
 axis(1, at=c(0,2,4,6), labels=c(0,2,4,6))
 
